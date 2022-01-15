@@ -11,6 +11,7 @@ body {
 	-o-transition: all 1s ease-in-out;
 	-ms-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
+	background-color: #0f131c;
 }
 .mt-3 {
 	margin-top: 20px;
@@ -478,13 +479,13 @@ body {
 .title-theme {
 	color: white;
 	font-weight: 300;
-	position: absolute;
+	position:relative;
 	left: 20px;
 	top: 15px;
 }
 
 .bar {
-	position: absolute;
+	position:relative;
 	top: 100px;
 	left: 20px;
 	height: 5px;
@@ -498,7 +499,7 @@ body {
 }
 
 .filledbar {
-	position: absolute;
+	position:relative;
 	top: 0px;
 	z-index: 3;
 	width: 0px;
@@ -514,7 +515,7 @@ body {
 }
 
 .circle {
-	position: absolute;
+	position:relative;
 	top: 150px;
 	left: calc(50% - 60px);
 }
@@ -596,7 +597,7 @@ body {
 	bottom: 0;
 	filter: brightness(0.75) saturate(1.2) contrast(0.85);
 	left: 0;
-	position: absolute;
+	position:relative;
 	right: 0;
 	top: 0;
 	transform-origin: center;
@@ -617,7 +618,7 @@ body {
 .card__content{
 	left: 0;
 	padding: var(--spacing-l);
-	position: absolute;
+	position:relative;
 	top: 0;
 }
 
