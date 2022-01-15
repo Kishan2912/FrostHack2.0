@@ -1,6 +1,7 @@
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
-import {Contactus} from "./components/Contactus";
+// import { Navbar } from "./components/Navbar";
+// import { Footer } from "./components/Footer";
+// import {Contactus} from "./components/Contactus";
+import {Index} from "./components/Index";
 
 // import './App.css';
 
@@ -9,9 +10,11 @@ import {Contactus} from "./components/Contactus";
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
       <Contactus/>
-      <Footer/>
+      <Footer/> */}
+      <Index/>
+
     </div>
   );
 }
