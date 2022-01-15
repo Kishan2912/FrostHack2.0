@@ -26,13 +26,13 @@ export const Navbar = (props) => {
                     <nav id="nav">
                         <ul className="main-nav nav navbar-nav navbar-right">
                             {/* <!-- <li><a href="#home">Top</a></li> --> */}
-                            <li><a href="#about">about</a></li>
-                            <li><a href="#schedule">schedule</a></li>
+                            <li><a href="index#about">about</a></li>
+                            <li><a href="index#schedule">schedule</a></li>
                             {/* <!-- <li><a href="#themes">Themes</a></li> --> */}
-                            <li><a href="#sponsors">sponsors</a></li>
-                            <li><a href="#faq">faq</a></li>
-                            <li><a href="judges.html">Judges</a></li>
-                            <li><a href="mentors.html">Mentors</a></li>
+                            <li><a href="index#sponsors">sponsors</a></li>
+                            <li><a href="index#faq">faq</a></li>
+                            <li><a href="judges">Judges</a></li>
+                            <li><a href="mentors">Mentors</a></li>
                             <li><a href="teams">team</a></li>
                         </ul>
                     </nav>

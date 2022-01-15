@@ -2,7 +2,7 @@
 // import { Footer } from "./components/Footer";
 // import {Contactus} from "./components/Contactus";
 import {Index} from "./components/Index";
-import {Team} from "./components/team";
+import {Teams} from "./components/Teams";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import './App.css';
@@ -14,7 +14,7 @@ function App() {
     <Router>
     <Switch>
       <Route path="/teams">
-        <Team />
+        <Teams />
       </Route>
       <Route path="/">
         <Index />
