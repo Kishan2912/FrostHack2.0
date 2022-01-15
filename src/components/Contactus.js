@@ -1,5 +1,4 @@
-
-function Contactus(props) {
+export const Contactus = (props) => {
     return (
         <div id="contact" className="section">
             {/* <!-- container --> */}
@@ -73,8 +72,6 @@ function Contactus(props) {
             </div>
             {/* <!-- /container --> */}
         </div>
-    )
+    );
 }
-
-export default Contactus()
 
