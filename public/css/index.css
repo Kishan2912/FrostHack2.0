@@ -11,6 +11,7 @@ body {
 	-o-transition: all 1s ease-in-out;
 	-ms-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
+	background-color: rgb(12, 68, 82);
 }
 .mt-3 {
 	margin-top: 20px;

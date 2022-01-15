@@ -1,43 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="keywords" content="tech,event,hack,hackathon,2020,frosthack,iit,mandi,fest,latest,trending">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  
+    <title>FrostHack | IIT Mandi</title>
+  
+    <!-- favicon -->
+    <link rel="icon" href="./img/logos/favi.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/logos/favi.png" type="image/x-icon" />
+  
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
+  
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Owl Carousel -->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+  
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="fontAwesome/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/discordInvite.css"/>
+  
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/main.js"></script>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+    <script src="js/discordInvite.js"></script>
+    <script>
+      discordInvite.init({
+      inviteCode: 'YsV3MJ7ke2',
+      title: 'FrostHack 2021',
+    });
+    discordInvite.render();
+    </script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
+  <script  type="text/javascript">
+    document.getElementById("timeline").innerHTML = "Coming Soon! Stay tuned for updates.";
+    // var today = new Date();
+    // if(today.getDate()<=6 && today.getHours() < 13){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Themes for Frosthack will be released on 6th May 1pm";
+    // }
+    // else if(today.getDate() == 6  && today.getHours() >= 13){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Tezos hands on Workshop on 7th May 5pm";
+    // }
+    // else if(today.getDate() == 7  && today.getHours() < 17){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Tezos hands on Workshop on 7th May 5pm";
+    // }
+    // else if(today.getDate() == 7  && today.getHours() >= 17 && today.getHours() < 19){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Opening Ceremony on 7th May 7pm | Frosthack begins! Start Hacking!";
+    // }  
+    // else if(today.getDate() == 7  && today.getHours() >= 19){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Mid Project Submission Deadline on 8th May 1pm";
+    // }
+    // else if(today.getDate() == 8  && today.getHours() < 13){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Mid Project Submission Deadline on 8th May 1pm";
+    // }
+    // else if(today.getDate() == 8  && today.getHours() >= 13){
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Final Project Submission Deadline on 9th May 12pm";
+    // }
+    // else{
+    // 	document.getElementById("timeline").innerHTML = "Upcoming Events - Winners announced for Frosthack 2021 - Thank you all for participating. See you next year!";
+    // }
+    function lightmode() {
+      document.body.style.backgroundColor = "#FFFFFF";
+        var x = document.getElementsByClassName("title");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("mt-3");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("changecolor");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-map-marked-alt");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-facebook");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-instagram");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-phone");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-envelope");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("fa-discord");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.color = "black";
+        }
+        var x = document.getElementsByClassName("panel");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.backgroundColor = "white";
+          x[i].style.borderColor = "white";
+        }
+        document.getElementById("cards_landscape_wrap-2").style.backgroundColor = "white";
+        document.getElementById("theme-toggle").src = "img/sun.svg";
+        document.getElementById("code_of_conduct").style.color = "#000000"
+    }
+    function darkmode() {
+      document.body.style.backgroundColor = "#0F131C";
+      document.getElementById("about").style.color = "#FFFFFF";
+      var x = document.getElementsByClassName("title");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "#FFFFFF";
+      }
+      var x = document.getElementsByClassName("mt-3");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "#FFFFFF";
+      }
+      var x = document.getElementsByClassName("changecolor");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-facebook");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-instagram");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-map-marked-alt");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-phone");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-envelope");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("fa-discord");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.color = "white";
+      }
+      var x = document.getElementsByClassName("card-flyer");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.borderColor = "white";
+      }
+      var x = document.getElementsByClassName("panel");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.backgroundColor = "#0F131C";
+        x[i].style.borderColor = "#0F131C";
+      }
+      document.getElementById("cards_landscape_wrap-2").style.backgroundColor = "#0F131C";
+      document.getElementById("theme-toggle").src = "img/moon.svg";
+      document.getElementById("code_of_conduct").style.color = "#ffffff"
+    }
+    function themechange() {
+        if(document.body.style.backgroundColor == "rgb(15, 19, 28)"){
+        lightmode();
+      }
+      else{
+        darkmode();
+      }
+    }
+    window.onload = function() {
+      darkmode();
+    };
+  </script>
 </html>
