@@ -5,7 +5,6 @@ import { Contactus } from "./Contactus";
 export const Index = (props) => {
       return (
         <div>
-          <Navbar/>
           {/* Home */}
           <div id="home">
             {/* background image */}
@@ -963,8 +962,7 @@ export const Index = (props) => {
               {/* /container */}
             </div>
             {/* /FAQ */}
-            <Contactus/>
-            <Footer/>
-          </div></div>
+          </div>
+      </div>
       );
   }

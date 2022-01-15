@@ -19,7 +19,7 @@ export const Footer = (props) => {
                             </a>
                         </div>
                         <div className="centered-code">
-                            <a id="code_of_conduct" href="code.html">Code of Conduct</a>
+                            <a id="code_of_conduct" href="/code">Code of Conduct</a>
                         </div>
                     </div>
                 </div>

@@ -31,9 +31,9 @@ export const Navbar = (props) => {
                             {/* <!-- <li><a href="#themes">Themes</a></li> --> */}
                             <li><a href="index#sponsors">sponsors</a></li>
                             <li><a href="index#faq">faq</a></li>
-                            <li><a href="judges">Judges</a></li>
-                            <li><a href="mentors">Mentors</a></li>
-                            <li><a href="teams">team</a></li>
+                            <li><a href="/judges">Judges</a></li>
+                            <li><a href="/mentors">Mentors</a></li>
+                            <li><a href="/teams">team</a></li>
                         </ul>
                     </nav>
                     {/* <!-- /Navigation --> */}
