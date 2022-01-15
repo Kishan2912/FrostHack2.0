@@ -1,12 +1,7 @@
 export const Navbar = (props) => {
     return (
         <header id="header" className="transparent-navbar navTop">
-            <marquee
-                id="timeline"
-                className="changecolor"
-                onmouseover="this.stop();"
-                onmouseout="this.start();">Coming Soon! Stay tuned for updates.
-            </marquee>
+            <marquee id="timeline" className="changecolor" onmouseover="this.stop();"  onmouseout="this.start();"> Coming Soon! Stay tuned for updates. </marquee>
             <div className="container">
                 {/*navbar header */}
                 <div className="navbar-header">
@@ -38,7 +33,7 @@ export const Navbar = (props) => {
                             <li><a href="#faq">faq</a></li>
                             <li><a href="judges.html">Judges</a></li>
                             <li><a href="mentors.html">Mentors</a></li>
-                            <li><a href="team.html">team</a></li>
+                            <li><a href="teams">team</a></li>
                         </ul>
                     </nav>
                     {/* <!-- /Navigation --> */}

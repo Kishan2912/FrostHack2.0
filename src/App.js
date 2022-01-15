@@ -2,6 +2,8 @@
 // import { Footer } from "./components/Footer";
 // import {Contactus} from "./components/Contactus";
 import {Index} from "./components/Index";
+import {Team} from "./components/team";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import './App.css';
 
@@ -9,13 +11,16 @@ import {Index} from "./components/Index";
 
 function App() {
   return (
-    <div>
-      {/* <Navbar/>
-      <Contactus/>
-      <Footer/> */}
-      <Index/>
-
-    </div>
+    <Router>
+    <Switch>
+      <Route path="/teams">
+        <Team />
+      </Route>
+      <Route path="/">
+        <Index />
+      </Route>
+    </Switch>
+  </Router>
   );
 }
 
