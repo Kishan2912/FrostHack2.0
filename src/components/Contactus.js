@@ -8,7 +8,8 @@ function Contactus(props) {
                 <div className="row">
                     {/* <!-- section title --> */}
                     <div className="section-title">
-                        <h3 className="title"><span>Contact</span> <span style="color: #dd0a37;">Us</span></h3>
+                        {/* <h3 className="title"><span>Contact</span> <span style="color: #dd0a37;">Us</span></h3> */}
+                        <h3 className="title"><span>Contact Us</span></h3>
                     </div>
                     {/* <!-- /section title -->
 
@@ -52,7 +53,7 @@ function Contactus(props) {
                             <a href="https://discord.com/invite/YsV3MJ7ke2" className="changecolor">Invite Link</a>
                         </div>
                     </div>
-                    <img id="theme-toggle" src="img/sun.svg" onclick="themechange()" />
+                    <img id="theme-toggle" alt = "" src="img/sun.svg" onclick="themechange()" />
 
 
                     {/* <!-- /contact -->
