@@ -1,3 +1,4 @@
+
 function lightmode() {
     document.body.style.backgroundColor = "#FFFFFF";
     var x = document.getElementsByClassName("title");
@@ -126,6 +127,13 @@ function themechange() {
         darkmode();
     }
 }
-window.onload = function () {
-    darkmode();
-};
+var path= window.location.pathname
+if(path === "/judges" || path=== "/mentors" || path=== "/teams" || path==="/code"){
+    window.onload = function () {
+        lightmode();
+    };
+}else{
+    window.onload = function () {
+        darkmode();
+    };
+}
