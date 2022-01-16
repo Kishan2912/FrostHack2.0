@@ -80,5 +80,14 @@
     });
     discordInvite.render();
   </script>
+  <script>
+    var path= window.location.pathname
+    if(path === "/judges" || path==="/code"){
+      window.onload = function () {
+        document.getElementById("code_of_conduct").style.color = "#0F131C"
+        document.getElementById("contact_us").style.color = "#0F131C"
+    };
+}
+  </script>
 
 </html>
