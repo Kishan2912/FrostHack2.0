@@ -8,7 +8,7 @@ export const Contactus = (props) => {
                     {/* <!-- section title --> */}
                     <div className="section-title">
                         {/* <h3 className="title"><span>Contact</span> <span style="color: #dd0a37;">Us</span></h3> */}
-                        <h3 className="title"><span id="contact_us" >Contact </span><span style={{color: "#dd0a37"}}>Us</span> </h3>
+                       <h3 className="title"><span id="contact_us" >Contact </span><span style={{color: "#dd0a37"}}>Us</span> </h3>
                     </div>
                     {/* <!-- /section title -->
 

@@ -1,7 +1,7 @@
 
 function darkmodeteam(){
     document.body.style.backgroundColor = "#0F131C";
-    document.getElementById("theme-toggle").src = "img/moon.svg";
+//     document.getElementById("theme-toggle").src = "img/moon.svg";
     var x = document.getElementsByClassName("fa-facebook");
     var i;
     for (i = 0; i < x.length; i++) {
@@ -48,7 +48,7 @@ function darkmodeteam(){
 
 function darkmodementor(){
     document.body.style.backgroundColor = "#0F131C";
-    document.getElementById("theme-toggle").src = "img/moon.svg";
+//     document.getElementById("theme-toggle").src = "img/moon.svg";
     var x = document.getElementsByClassName("fa-facebook");
     var i;
     for (i = 0; i < x.length; i++) {
@@ -153,21 +153,17 @@ function darkmodeindex() {
         x[i].style.borderColor = "#0F131C";
     }
     document.getElementById("cards_landscape_wrap-2").style.backgroundColor = "#0F131C";
-    document.getElementById("theme-toggle").src = "img/moon.svg";
+//     document.getElementById("theme-toggle").src = "img/moon.svg";
     document.getElementById("code_of_conduct").style.color = "#ffffff";
 }
 
 var path= window.location.pathname
-if(path === "/judges" || path==="/code"){
-    window.onload = function () {
-        lightmode();
-    };
-}else if(path=== "/mentors" ){
+if(path === "/mentors" ){
     window.onload = function () {
         darkmodementor();
         $("#code_of_conduct").style.color = "#ffffff";
     };
-}else if(path=== "/teams"){
+}else if(path === "/teams"){
     window.onload = function () {
         darkmodeteam();
         $("#code_of_conduct").style.color = "#ffffff";
