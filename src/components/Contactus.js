@@ -52,7 +52,6 @@ export const Contactus = (props) => {
                             <a href="https://discord.com/invite/YsV3MJ7ke2" className="changecolor">Invite Link</a>
                         </div>
                     </div>
-                    <img id="theme-toggle" alt = "" src="img/sun.svg" onclick="themechange()" />
 
 
                     {/* <!-- /contact -->

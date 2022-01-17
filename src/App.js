@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import { Code } from "./components/Code";
+import { Code } from "./components/code";
 import { Judges } from "./components/Judges";
 import { Mentors } from "./components/Mentors";
 import {Contactus} from "./components/Contactus";

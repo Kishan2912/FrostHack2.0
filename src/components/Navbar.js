@@ -1,7 +1,14 @@
 export const Navbar = (props) => {
+    function stop() {
+        document.getElementById("timeline").stop();
+    }
+    function strt() {
+        document.getElementById("timeline").start();
+    }
+
     return (
         <header id="header" className="transparent-navbar navTop">
-            <marquee id="timeline" className="changecolor" onmouseover="this.stop();"  onmouseout="this.start();"> Coming Soon! Stay tuned for updates. </marquee>
+            <marquee id="timeline" className="changecolor" onMouseOver={stop}  onMouseOut={strt}> Coming Soon! Stay tuned for updates. </marquee>
             <div className="container">
                 {/*navbar header */}
                 <div className="navbar-header">
