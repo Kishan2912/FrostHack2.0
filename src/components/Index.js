@@ -423,7 +423,7 @@ export const Index = (props) => {
             <div className="row sponbox">
               {/* section title */}
               <div className="section-title">
-                <h3 className="title"><span>Our</span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
+                <h3 className="title"><span>Our Previous </span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
               </div>
               {/* /section title */}
             </div>
@@ -698,7 +698,7 @@ export const Index = (props) => {
           {/* container */}
           <div className="container">
             <div className="download-btn">
-              <a rel="noreferrer" href="./files/spon.pdf" className="main-btn">Sponsor Us</a>
+              <a rel="noreferrer" href="./files/spon.pdf" target="_blank" className="main-btn">Sponsor Us</a>
             </div>
           </div>
           {/* /container */}

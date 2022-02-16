@@ -8,7 +8,12 @@ export const Archive = (props) => {
                     {/* row */}
                     <div className="row">
                         <div className="section-title">
-                            <h3 className="title"><span />Frosthack <span style={{ color: '#dd0a37' }}>Winners</span></h3>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <h3 className="title"><span style={{ color: '#DADADA' }}>Frosthack</span> <span style={{ color: '#dd0a37' }}>Winners</span></h3>
                         </div>
                         <section className="hero-section">
                             <div className="card-grid">

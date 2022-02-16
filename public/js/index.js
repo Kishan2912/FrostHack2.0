@@ -170,7 +170,7 @@ if(path === "/mentors" ){
     };
 }else if(path === "/archive"){
     window.onload = function () {
-        darkmodeindex();
+        darkmodementor();
         $("#code_of_conduct").style.color = "#ffffff";
     };
 }else{
