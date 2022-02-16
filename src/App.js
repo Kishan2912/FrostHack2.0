@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { Archive } from "./components/Archive";
 import { Code } from "./components/code";
 import { Judges } from "./components/Judges";
 import { Mentors } from "./components/Mentors";
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/mentors">
           <Mentors />
+        </Route>
+        <Route path="/archive">
+          <Archive />
         </Route>
         <Route path="/">
           <Index />

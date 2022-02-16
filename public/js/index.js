@@ -168,6 +168,11 @@ if(path === "/mentors" ){
         darkmodeteam();
         $("#code_of_conduct").style.color = "#ffffff";
     };
+}else if(path === "/archive"){
+    window.onload = function () {
+        darkmodeindex();
+        $("#code_of_conduct").style.color = "#ffffff";
+    };
 }else{
     window.onload = function () {
         darkmodeindex();

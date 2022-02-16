@@ -35,12 +35,12 @@ export const Navbar = (props) => {
                             {/* <!-- <li><a href="#home">Top</a></li> --> */}
                             <li><a id="1" href="index#about">about</a></li>
                             <li><a id="2" href="index#schedule">schedule</a></li>
-                            {/* <!-id="" - <li><a href="#themes">Themes</a></li> --> */}
                             <li><a id="3" href="index#sponsors">sponsors</a></li>
                             <li><a id="4" href="index#faq">faq</a></li>
                             <li><a id="5" href="/judges">Judges</a></li>
                             <li><a id="6" href="/mentors">Mentors</a></li>
                             <li><a id="7" href="/teams">team</a></li>
+                            <li><a id="8" href="/archive">Archives</a></li>
                         </ul>
                     </nav>
                     {/* <!-- /Navigation --> */}
