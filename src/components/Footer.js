@@ -1,11 +1,11 @@
 export const Footer = (props) => {
     return (
         <footer id="footer">
-            <div className="container">
+            <div className="container" >
                 <div className="row">
                     <div className="col-md-4 col-md-push-4">
                         <div className="footer-brand">
-                            <a className="logo" href="#home">
+                            <a className="logo" href="/">
                                 <img className="logo-img" src="./img/logos/wide.png" alt="logo"/>
                             </a>
                         </div>

@@ -14,7 +14,7 @@ export const Navbar = (props) => {
                 <div className="navbar-header">
                     {/* <!-- Logo --> */}
                     <div className="navbar-brand">
-                        <a className="logo" href="#home">
+                        <a className="logo" href="/">
                             <img id="image2" className="logo-img" src="./img/logos/wide-small-white.png" alt="logo"/>
                             <img id="image1" className="logo-alt-img" src="./img/logos/wide-small.png" alt="logo"/>
                         </a>
@@ -33,13 +33,13 @@ export const Navbar = (props) => {
                     <nav id="nav">
                         <ul className="main-nav nav navbar-nav navbar-right">
                             {/* <!-- <li><a href="#home">Top</a></li> --> */}
-                            <li><a id="1" href="index#about">about</a></li>
-                            <li><a id="2" href="index#schedule">schedule</a></li>
-                            <li><a id="3" href="index#sponsors">sponsors</a></li>
-                            <li><a id="4" href="index#faq">faq</a></li>
+                            <li><a id="1" href="index#about">About</a></li>
+                            <li><a id="2" href="index#schedule">Schedule</a></li>
+                            <li><a id="3" href="index#sponsors">Sponsors</a></li>
+                            <li><a id="4" href="index#faq">FAQ</a></li>
                             <li><a id="5" href="/judges">Judges</a></li>
                             <li><a id="6" href="/mentors">Mentors</a></li>
-                            <li><a id="7" href="/teams">team</a></li>
+                            <li><a id="7" href="/teams">Team</a></li>
                             <li><a id="8" href="/archive">Archives</a></li>
                         </ul>
                     </nav>

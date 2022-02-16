@@ -36,10 +36,11 @@ function App() {
         </Route>
         <Route path="/">
           <Index />
+          <Contactus/>
         </Route>
       </Switch>
     </Router>
-    <Contactus/>
+    
     <Footer/>
   </>
   );
