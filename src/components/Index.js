@@ -19,18 +19,26 @@ export const Index = (props) => {
                 {/* home content */}
                 <div className="col-md-8 col-md-offset-2">
                   <div className="home-content">
+                    <h1 className='coming-soon'>
+                      <br />
+                      <br />
+                      <br />
+                      {/* <br /> */}
+                      COMING SOON
+                    </h1>
                     <h1>
                       {/* frosthack */}
                       <img id="frosthacklogo" src="./img/logos/wide-white.png" alt="" />
                     </h1>
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
-                      <i className="fas fa-calendar-day"> 7th May - 9th May 2021</i>
+                      <br />
+                      <i className="fas fa-calendar-day"> 7th May - 8th May 2022</i>
                     </h4>
-                    <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a>
+                    {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
                     <div> <br /> </div>
-                    <div className="apply-button" data-hackathon-slug="frosthack2021" data-button-theme="light" style={{ height: '44px', width: '312px' }} />
+                    {/* <div className="apply-button" data-hackathon-slug="frosthack2021" data-button-theme="light" style={{ height: '44px', width: '312px' }} /> */}
                   </div>
                 </div>
                 {/* /home content */}
