@@ -427,12 +427,13 @@ export const Index = (props) => {
               </div>
               {/* /section title */}
             </div>
-            <h3 className="text-center changecolor">Diamond Sponsors</h3>
+            
+            <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Diamond Sponsors</h3>
             <div className="spon-diamond">
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://motwanijadejafoundation.com/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/MJFlogo.png" alt="" />
+                  <div className="img" >
+                    <img src="img/spons/MJF_logo.png" alt=""  />
                   </div>
                 </a>
               </div>
@@ -444,7 +445,7 @@ export const Index = (props) => {
                 </a>
               </div>
             </div>
-            <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Platinum Sponsors</h3>
+            <h3 className="text-center changecolor" style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Platinum Sponsors</h3>
             <div className="spon-platinum">
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://polygon.technology/" target="_blank">
@@ -483,7 +484,7 @@ export const Index = (props) => {
               </div>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Gold Sponsor</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Gold Sponsor</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://hoverrobotix.com/" target="_blank">
@@ -493,7 +494,7 @@ export const Index = (props) => {
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Silver Sponsor</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Silver Sponsor</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://tesseract.rezzlon.com/" target="_blank">
@@ -503,7 +504,7 @@ export const Index = (props) => {
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Media Partners</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px",fontSize:"30px" }}>Media Partners</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in" target="_blank">
