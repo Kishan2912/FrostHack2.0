@@ -34,13 +34,13 @@ export const Navbar = (props) => {
                         <ul className="main-nav nav navbar-nav navbar-right">
                             {/* <!-- <li><a href="#home">Top</a></li> --> */}
                             <li><a id="1" href="index#about">About</a></li>
-                            <li><a id="2" href="index#schedule">Schedule</a></li>
-                            <li><a id="3" href="index#sponsors">Sponsors</a></li>
-                            <li><a id="4" href="index#faq">FAQ</a></li>
-                            <li><a id="5" href="/judges">Judges</a></li>
-                            <li><a id="6" href="/mentors">Mentors</a></li>
-                            <li><a id="7" href="/teams">Team</a></li>
-                            <li><a id="8" href="/archive">Archives</a></li>
+                            {/* <li><a id="2" href="index#schedule">Schedule</a></li> */}
+                            <li><a id="2" href="index#sponsors">Sponsors</a></li>
+                            <li><a id="3" href="index#faq">FAQ</a></li>
+                            <li><a id="4" href="/judges">Judges</a></li>
+                            <li><a id="5" href="/mentors">Mentors</a></li>
+                            <li><a id="6" href="/teams">Team</a></li>
+                            <li><a id="7" href="/archive">Archives</a></li>
                         </ul>
                     </nav>
                     {/* <!-- /Navigation --> */}
