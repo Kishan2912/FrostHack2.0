@@ -19,18 +19,26 @@ export const Index = (props) => {
                 {/* home content */}
                 <div className="col-md-8 col-md-offset-2">
                   <div className="home-content">
+                    <h1 className='coming-soon'>
+                      <br />
+                      <br />
+                      <br />
+                      {/* <br /> */}
+                      COMING SOON
+                    </h1>
                     <h1>
                       {/* frosthack */}
                       <img id="frosthacklogo" src="./img/logos/wide-white.png" alt="" />
                     </h1>
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
-                      <i className="fas fa-calendar-day"> 7th May - 9th May 2021</i>
+                      <br />
+                      <i className="fas fa-calendar-day"> 7th May - 8th May 2022</i>
                     </h4>
-                    <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a>
+                    {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
                     <div> <br /> </div>
-                    <div className="apply-button" data-hackathon-slug="frosthack2021" data-button-theme="light" style={{ height: '44px', width: '312px' }} />
+                    {/* <div className="apply-button" data-hackathon-slug="frosthack2021" data-button-theme="light" style={{ height: '44px', width: '312px' }} /> */}
                   </div>
                 </div>
                 {/* /home content */}
@@ -409,93 +417,23 @@ export const Index = (props) => {
           </div>
       </div>
       </div> */}
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
-        <div id="themes" className="section">
-          {/* container */}
-          <div className="container">
-            {/* row */}
-            <div className="row">
-              <div className="section-title">
-                <h3 className="title"><span />Frosthack <span style={{ color: '#dd0a37' }}>Winners</span></h3>
-              </div>
-              <section className="hero-section">
-                <div className="card-grid">
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/gofit-f48b">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/458f2c96a2194c4ea726db09de2c530d/854dda8a-d2b5-4eb7-88fe-78803bdcb6ad.png)' }} />
-                    <div className="card__content changecolor">
-                      <p className="card__category changecolor">1st prize</p>
-                      <h3 className="card__heading changecolor">Project GoFit</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/covicoin-74c9">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/c793422146584da2a9509d9c0f39a4a5/aedef7f2-04ea-4915-a898-2f8300fe5dd4.png)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">2nd Prize</p>
-                      <h3 className="card__heading changecolor">Project Covicoin</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="http://frosthacksubmission.pythonanywhere.com/details/46?">
-                    <div className="card__background" style={{ backgroundImage: 'url(img/ponder.png)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">3rd Prize</p>
-                      <h3 className="card__heading changecolor">Project Ponder</h3>
-                    </div>
-                  </a><a className="winners_card" href="https://devfolio.co/submissions/digiq-06b4">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/c212b8e42495443b80dde754bdd55869/b6244c4d-d11e-4138-82c5-038c33cc6aed.jpeg)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">Best Covid Hack</p>
-                      <h3 className="card__heading changecolor">Project DigiQ</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/uvc-vehicle-sanitizer-2cb9">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/d616200e2a804afd8764360824726aa1/c7d7eb79-1cac-4372-97f8-9a84ba790727.jpeg)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">Outstanding Female Submission</p>
-                      <h3 className="card__heading changecolor">Project Vehicle Sanitizer</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/hriday-ad19">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/6606bee2d20b46b0a18b57ad7fb3bc63/863bc909-ccae-486a-ba1a-9c30de6a9489.jpeg)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">Special Mention</p>
-                      <h3 className="card__heading changecolor">Project Hriday</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/edulocity-bb7c">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/c0e049c6237a463b89c3b98b125eb68f/5908a983-8d40-4012-b879-27f18c4a3a39.jpeg)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">Special Mention</p>
-                      <h3 className="card__heading changecolor">Project Edulocity</h3>
-                    </div>
-                  </a>
-                  <a rel="noreferrer" className="winners_card" href="https://devfolio.co/submissions/guitar-a8b8">
-                    <div className="card__background" style={{ backgroundImage: 'url(https://assets.devfolio.co/hackathons/efcf40b9f9b043f38f82fa2d03a0154d/projects/78e29ee92e834576906e12459c78a4da/1c4a203b-6d52-41de-b037-aba6c0eb6f14.png)' }} />
-                    <div className="card__content">
-                      <p className="card__category changecolor">Special Mention</p>
-                      <h3 className="card__heading changecolor">Project GuitAR</h3>
-                    </div>
-                  </a>
-                  <div>
-                  </div></div></section>
-            </div>
-          </div>
-        </div>
         {/* Sponsors */}
         <div id="sponsors" className="section">
           <div className="container">
             <div className="row sponbox">
               {/* section title */}
               <div className="section-title">
-                <h3 className="title"><span>Our</span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
+                <h3 className="title"><span>Our Previous </span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
               </div>
               {/* /section title */}
             </div>
-            <h3 className="text-center changecolor">Diamond Sponsors</h3>
+            
+            <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Diamond Sponsors</h3>
             <div className="spon-diamond">
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://motwanijadejafoundation.com/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/MJFlogo.png" alt="" />
+                  <div className="img" >
+                    <img src="img/spons/MJF_logo.png" alt=""  />
                   </div>
                 </a>
               </div>
@@ -507,7 +445,7 @@ export const Index = (props) => {
                 </a>
               </div>
             </div>
-            <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Platinum Sponsors</h3>
+            <h3 className="text-center changecolor" style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Platinum Sponsors</h3>
             <div className="spon-platinum">
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://polygon.technology/" target="_blank">
@@ -546,7 +484,7 @@ export const Index = (props) => {
               </div>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Gold Sponsor</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Gold Sponsor</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://hoverrobotix.com/" target="_blank">
@@ -556,7 +494,7 @@ export const Index = (props) => {
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Silver Sponsor</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Silver Sponsor</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://tesseract.rezzlon.com/" target="_blank">
@@ -566,7 +504,7 @@ export const Index = (props) => {
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor" style={{ marginTop: '30px' }}>Media Partners</h3>
+          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px",fontSize:"30px" }}>Media Partners</h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in" target="_blank">
@@ -761,7 +699,7 @@ export const Index = (props) => {
           {/* container */}
           <div className="container">
             <div className="download-btn">
-              <a rel="noreferrer" href="./files/spon.pdf" className="main-btn">Sponsor Us</a>
+              <a rel="noreferrer" href="./files/spon.pdf" target="_blank" className="main-btn" style={{marginBottom:40}}>Sponsor Us</a>
             </div>
           </div>
           {/* /container */}

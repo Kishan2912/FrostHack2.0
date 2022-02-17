@@ -11,6 +11,10 @@ export const Mentors = (props) => {
             <div className="row">
               {/* section title */}
               <div className="section-title">
+                <br />
+                <br />
+                <br />
+                <br />
                 <h3 className="title"><span className="changecolor">meet the</span> <span style={{color: '#dd0a37'}}>Mentors</span></h3>
               </div>
               {/* /section title */}

@@ -129,7 +129,7 @@ textarea.input {
 
 .section {
   position: relative;
-  padding: 90px 0px;
+  padding: 20px 0px;
 }
 
 .section-bg {
@@ -846,6 +846,7 @@ textarea.input {
 
 #footer {
   padding: 60px 0px;
+  /* background-color: #FFFF; */
 }
 
 .footer-brand {
