@@ -14,7 +14,7 @@ export const Archive = (props) => {
                             <br />
                             <br />
                             <br />
-                            <h3 className="title"><span style={{ color: '#DADADA' }}>Frosthack</span> <span style={{ color: '#dd0a37' }}>Winners</span></h3>
+                            <h3 className="title"><span style={{ color: '#DADADA' }}>Frosthack</span> <span style={{ color: '#dd0a37' }}>2021 Winners</span></h3>
                         </div>
                         <section className="hero-section">
                             <div className="card-grid">
