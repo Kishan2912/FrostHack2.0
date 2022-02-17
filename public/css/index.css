@@ -82,7 +82,7 @@ body {
 }
 #home div.home-wrapper .home-content .coming-soon{
 	font-family: 'Roboto Serif', sans-serif;
-	font-size: 85px; 
+	font-size: 75px; 
 }
 .navTop ul.main-nav {
 	font-size: 1.5rem;
@@ -312,7 +312,8 @@ body {
   {
 	padding-left: 40px;
 	padding-right: 40px;
-	height: 65vh;
+	height: 40rem;
+	width: 37rem;
   }
   
 
