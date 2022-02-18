@@ -1,4 +1,26 @@
+import React, { useState, Fragment } from "react";
+
 export const Navbar = (props) => {
+  /* Navbar style with Screenwidth */
+  const changeNavbar = () => {
+    if (window.innerWidth > 767) {
+      var elt = document.getElementById("nav");
+      elt.style.display = "block";
+    } else {
+      var elt = document.getElementById("nav");
+      elt.style.display = "none";
+    }
+  };
+  window.addEventListener("resize", changeNavbar);
+  /* Navbar style with Screenwidth */
+  
+  /* Mobile Navbar Onclick Function*/ 
+  const styleChange = (id) => {
+    var elt = document.getElementById(id);
+    elt.style.display = elt.style.display === "block" ? "none" : "block";
+  };
+  /* Mobile Navbar Onclick Function*/ 
+
   function stop() {
     document.getElementById("timeline").stop();
   }
@@ -6,10 +28,6 @@ export const Navbar = (props) => {
     document.getElementById("timeline").start();
   }
 
-  const styleChange = (id) => {
-    var elt = document.getElementById(id);
-    elt.style.display = elt.style.display == "block" ? "none" : "block";
-  };
 
   return (
     <header id="header" className="transparent-navbar navTop">
@@ -54,7 +72,6 @@ export const Navbar = (props) => {
 
         {/* <!-- Navigation --> */}
         <nav id="nav" 
-        className="full-nav"
         >
           <ul className="main-nav nav navbar-nav navbar-right">
             {/* <!-- <li><a href="#home">Top</a></li> --> */}
