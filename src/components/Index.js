@@ -699,7 +699,7 @@ export const Index = (props) => {
           {/* container */}
           <div className="container">
             <div className="download-btn">
-              <a rel="noreferrer" href="./files/spon.pdf" target="_blank" className="main-btn">Sponsor Us</a>
+              <a rel="noreferrer" href="./files/spon.pdf" target="_blank" className="main-btn" style={{marginBottom:40}}>Sponsor Us</a>
             </div>
           </div>
           {/* /container */}

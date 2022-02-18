@@ -129,7 +129,7 @@ textarea.input {
 
 .section {
   position: relative;
-  padding: 90px 0px;
+  padding: 20px 0px;
 }
 
 .section-bg {
@@ -322,18 +322,20 @@ textarea.input {
 @media only screen and (max-width: 767px) {
   .main-nav {
     margin: 0px -15px;
-    max-height: 0;
+    max-height: 500;
     overflow-y: scroll;
     background-color: #FFF;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
+    /* display: none; */
   }
-  .main-nav.open {
+
+  /* .main-nav.open {
     max-height: 500px;
-  }
-  .main-nav li.active a:after {
+  } */
+  /* .main-nav li.active a:after {
     display: none;
-  }
+  } */
   #header.transparent-navbar .main-nav li a {
     color: #0b0f28;
   }
