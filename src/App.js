@@ -2,12 +2,11 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Archive } from "./components/Archive";
 import { Code } from "./components/code";
-import { Judges } from "./components/judges";
+import { Judges } from "./components/Judges";
 import { Mentors } from "./components/Mentors";
 import {Contactus} from "./components/Contactus";
 import {Index} from "./components/Index";
 import {Teams} from "./components/Teams";
-import {Previous} from "./components/Previous";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import './App.css';
@@ -30,7 +29,7 @@ function App() {
           <Code />
         </Route>
         <Route path="/mentors">
-          <Previous />
+          <Mentors />
         </Route>
         <Route path="/archive">
           <Archive />
@@ -38,9 +37,6 @@ function App() {
         <Route path="/">
           <Index />
           <Contactus/>
-        </Route>
-        <Route path="/previous">
-          <Previous />
         </Route>
       </Switch>
     </Router>
