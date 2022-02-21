@@ -141,7 +141,7 @@ export const Archive = (props) => {
                             className="changecolor"
                             style={{ color: "white" }}
                           >
-                            <CountUp start={0} end={1000} /> +
+                            <CountUp start={0} end={300} /> +
                           </h5>
                           <hr
                             style={{
@@ -150,7 +150,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Participants</h3>
+                          <h3 style={{ color: "Red" }}>Projects</h3>
                           <p />
                         </div>
                       </div>
