@@ -1,6 +1,5 @@
 import CountUp from "react-countup";
 import React from "react";
-
 export const Archive = (props) => {
   return (
     <>
