@@ -17,7 +17,7 @@ export const Navbar = (props) => {
   /* Mobile Navbar Onclick Function*/ 
   const styleChange = (id) => {
     var elt = document.getElementById(id);
-    elt.style.display = elt.style.display === "block" ? "none" : "block";
+    elt.style.display = ((elt.style.display === "block") ? "none" : "block");
   };
   /* Mobile Navbar Onclick Function*/ 
 
@@ -71,7 +71,7 @@ export const Navbar = (props) => {
         {/* <!-- /navbar header --> */}
 
         {/* <!-- Navigation --> */}
-        <nav id="nav" 
+        <nav id="nav" style={{display:"none"}}
         >
           <ul className="main-nav nav navbar-nav navbar-right">
             {/* <!-- <li><a href="#home">Top</a></li> --> */}
