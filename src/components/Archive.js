@@ -27,7 +27,7 @@ export const Archive = (props) => {
                   {/*Prize*/}
                   <div className="section-title">
                     <h5 className="title" style={{ color: "white" }}>
-                      <span>Previous Year Stats</span>{" "}
+                      <span>Previous  <span style={{color: "red"}}>Year Statistics</span></span>{" "}
                     </h5>
                   </div>
                   <div
