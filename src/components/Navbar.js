@@ -19,6 +19,14 @@ export const Navbar = (props) => {
     var elt = document.getElementById(id);
     elt.style.display = ((elt.style.display === "block") ? "none" : "block");
   };
+  const showNavbar = () => {
+    if (window.innerWidth > 767) {
+      return {"display":"block"}
+    } else {
+      return {"display":"none"}
+      
+    }
+  };
   /* Mobile Navbar Onclick Function*/ 
 
   function stop() {
@@ -71,7 +79,7 @@ export const Navbar = (props) => {
         {/* <!-- /navbar header --> */}
 
         {/* <!-- Navigation --> */}
-        <nav id="nav" style={{display:"none"}}
+        <nav id="nav" style={showNavbar()}
         >
           <ul className="main-nav nav navbar-nav navbar-right">
             {/* <!-- <li><a href="#home">Top</a></li> --> */}
