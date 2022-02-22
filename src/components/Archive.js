@@ -30,7 +30,7 @@ export const Archive = (props) => {
                     </h5>
                   </div>
                   <div
-                    className="col-xs-12 col-sm-6 col-md-6 col-lg-6"
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
                     id="cash-prize-r1-a"
                     style={{ padding: "10px 40px" }}
                   >
@@ -53,80 +53,16 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "red" }}>Applications</h3>
+                          <h3 style={{ color: "red" }}>Participants</h3>
                           <p />
                         </div>
                       </div>
                     </div>
                   </div>
                   {/*/Prize*/}
-                  {/*Prize*/}
-                  <div
-                    className="col-xs-12 col-sm-6 col-md-6 col-lg-6"
-                    id="cash-prize-r1-b"
-                    style={{ padding: "10px 40px" }}
-                  >
-                    <div className="card-flyer">
-                      <div className="text-box">
-                        {/* <div className="image-box">
-                        <img src="img/silver.jpg" alt="" />
-                      </div> */}
-                        <div className="text-container">
-                          <h5
-                            className="changecolor"
-                            style={{ color: "white" }}
-                          >
-                            <CountUp start={0} end={1200} /> +
-                          </h5>
-                          <hr
-                            style={{
-                              borderTop: "6px solid white",
-                              marginLeft: "10%",
-                              marginRight: "10%",
-                            }}
-                          />
-                          <h3 style={{ color: "red" }}>Discord Community</h3>
-                          <p />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/*/Prize*/}
-                  {/*Prize*/}
-                  <div
-                    className="col-xs-12 col-sm-6 col-md-6 col-lg-6"
-                    id="cash-prize-r1-c"
-                    style={{ padding: "10px 40px" }}
-                  >
-                    <div className="card-flyer">
-                      <div className="text-box">
-                        {/* <div className="image-box">
-                        <img src="img/bronze.jpg" alt="" />
-                      </div> */}
-                        <div className="text-container">
-                          <h5
-                            className="changecolor"
-                            style={{ color: "white" }}
-                          >
-                            <CountUp start={0} end={1000} /> +
-                          </h5>
-                          <hr
-                            style={{
-                              borderTop: "6px solid white",
-                              marginLeft: "10%",
-                              marginRight: "10%",
-                            }}
-                          />
-                          <h3 style={{ color: "Red" }}>Participants</h3>
-                          <p />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/*/Prize*/}
-                  {/*Prize*/}
-                  <div
-                    className="col-xs-12 col-sm-6 col-md-6 col-lg-6"
+                   {/*Prize*/}
+                   <div
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
                     id="cash-prize-r1-d"
                     style={{ padding: "10px 40px" }}
                   >
@@ -149,13 +85,143 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Projects</h3>
+                          <h3 style={{ color: "Red" }}>Colleges</h3>
                           <p />
                         </div>
                       </div>
                     </div>
                   </div>
                   {/*/Prize*/}
+                  {/*Prize*/}
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                    id="cash-prize-r1-b"
+                    style={{ padding: "10px 40px" }}
+                  >
+                    <div className="card-flyer">
+                      <div className="text-box">
+                        {/* <div className="image-box">
+                        <img src="img/silver.jpg" alt="" />
+                      </div> */}
+                        <div className="text-container">
+                          <h5
+                            className="changecolor"
+                            style={{ color: "white" }}
+                          >
+                            <CountUp start={0} end={250} /> +
+                          </h5>
+                          <hr
+                            style={{
+                              borderTop: "6px solid white",
+                              marginLeft: "10%",
+                              marginRight: "10%",
+                            }}
+                          />
+                          <h3 style={{ color: "red" }}>Teams</h3>
+                          <p />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*/Prize*/}
+                    
+                  {/*Prize*/}
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                    id="cash-prize-r1-c"
+                    style={{ padding: "10px 40px" }}
+                  >
+                    <div className="card-flyer">
+                      <div className="text-box">
+                        {/* <div className="image-box">
+                        <img src="img/bronze.jpg" alt="" />
+                      </div> */}
+                        <div className="text-container">
+                          <h5
+                            className="changecolor"
+                            style={{ color: "white" }}
+                          >
+                            <CountUp start={0} end={4000} /> +
+                          </h5>
+                          <hr
+                            style={{
+                              borderTop: "6px solid white",
+                              marginLeft: "10%",
+                              marginRight: "10%",
+                            }}
+                          />
+                          <h3 style={{ color: "Red" }}>Emails</h3>
+                          <p />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*/Prize*/}
+                  {/*Prize*/}
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                    id="cash-prize-r1-e"
+                    style={{ padding: "10px 40px" }}
+                  >
+                    <div className="card-flyer">
+                      <div className="text-box">
+                        {/* <div className="image-box">
+                        <img src="img/bronze.jpg" alt="" />
+                      </div> */}
+                        <div className="text-container">
+                          <h5
+                            className="changecolor"
+                            style={{ color: "white" }}
+                          >
+                            <CountUp start={0} end={3000} /> +
+                          </h5>
+                          <hr
+                            style={{
+                              borderTop: "6px solid white",
+                              marginLeft: "10%",
+                              marginRight: "10%",
+                            }}
+                          />
+                          <h3 style={{ color: "Red" }}>Messages</h3>
+                          <p />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*/Prize*/}
+                  {/*Prize*/}
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                    id="cash-prize-r1-f"
+                    style={{ padding: "10px 40px" }}
+                  >
+                    <div className="card-flyer">
+                      <div className="text-box">
+                        {/* <div className="image-box">
+                        <img src="img/bronze.jpg" alt="" />
+                      </div> */}
+                        <div className="text-container">
+                          <h5
+                            className="changecolor"
+                            style={{ color: "white" }}
+                          >
+                            <CountUp start={0} end={500} /> +
+                          </h5>
+                          <hr
+                            style={{
+                              borderTop: "6px solid white",
+                              marginLeft: "10%",
+                              marginRight: "10%",
+                            }}
+                          />
+                          <h3 style={{ color: "Red" }}>Doubts Solved</h3>
+                          <p />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*/Prize*/}
+                
                 </div>
               </div>
             </div>
